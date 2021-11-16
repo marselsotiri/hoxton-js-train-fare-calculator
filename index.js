@@ -1,6 +1,8 @@
-const age=Number(prompt(`How old are you ?`));
+const age=Number(prompt(`How old are you ?
+:-Please insert only a number.`));
 
-const destination=Number(prompt(`Your destination in km ?`));
+const destination=Number(prompt(`Your destination in km ?
+:-Please insert only a number.`));
 
 const priceForKm=destination*0.21;
 
