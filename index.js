@@ -15,9 +15,10 @@ const discountJunior=priceForKm-discount1;
 const discountSenior=priceForKm-discount2;
 
 if (age < 18) {
-    confirm(`Your price for the ticket is ${discountJunior}£`);
+    confirm(`Your price for the ticket is £${discountJunior.toFixed(2)}`);
 }else if (age > 65) {
-    confirm(`Your price for the ticket is ${discountSenior}£`);
+    confirm(`Your price for the ticket is £${discountSenior.toFixed(2)}`);
 }else{
-    confirm(`Your price for the ticket is ${priceForKm}£`);
+    confirm(`Your price for the ticket is £${priceForKm.toFixed(2)}`);
 }
+
